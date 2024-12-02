@@ -1,0 +1,194 @@
+body{
+  height:100vh;
+}
+
+body {
+  font-family: "Fahkwang";
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+.height {
+  height: 10px;
+}
+
+.image-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.next {
+  right: 0;
+}
+
+.previous,.next {
+  cursor: pointer;
+  background-color: #ff000000;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  margin-top: -25px;
+}
+
+.captionText {
+  color: #000000;
+  font-size: 14px;
+  position: absolute;
+  padding: 12px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.slideNumber {
+  background-color: #5574C5;
+  color: white;
+  border-radius: 25px;
+  right: 0;
+  opacity: .5;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+}
+.fa {
+  font-size: 32px;
+}
+
+.fa:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+  color: white;
+}
+
+.footerdot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: rotate(45deg);
+  background-color: red;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: rotate(-45deg);
+  background-color: red;
+}
+
+.square {
+  float: right;
+  width: 150px; 
+  height: 150px;
+  margin: 0 10px;
+  object-fit: cover; 
+}
+
+    .navbar {
+        background-color: #b8a995;
+
+        overflow: visible;
+    }
+    * {box-sizing: border-box}
+
+    .container {
+      padding: 16px;
+    }
+    
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    .registerbtn {
+      background-color: #b8a995;
+      color: white;
+      padding: 16px 16px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+      opacity:1;
+    }
+    
+    a {
+      color: dodgerblue;
+    }
+    
+    .signin {
+      background-color:  #f1f1f1;
+      text-align: center;
+    }
+    .dropbtn {
+      background-color: #b8a995;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #b8a995;}
+
+    .con{
+      font-size: 40px;
+    }
